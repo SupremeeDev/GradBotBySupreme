@@ -15,7 +15,7 @@ api_key = "" ## Ovdje stavite Api Key koji mozete naci na: api.openweathermap.co
 
 @bot.event
 async def on_ready():
-    print("Bos Status: Online")
+    print("Bot Status: Online")
     await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="Bot Dev: $upreme#1337")) ## Bot Status
 
 @bot.command()
